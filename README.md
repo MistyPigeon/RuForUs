@@ -97,5 +97,3 @@ Or run the .exe directly:
 Code
 
     bin\Debug\net6.0\UserPrivacyEnforcer.exe "C:\path\to\your\data"
-
-Let me know if you need any additional customization or want to integrate this step into your main workflow!
