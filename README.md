@@ -78,3 +78,24 @@ Contributing
 Pull requests and feature suggestions are warmly welcome! Please open an issue or fork the repo and submit a PR.
 License
 MIT License. See LICENSE for details.
+
+How to use C security utillity:
+
+    Open a terminal or PowerShell in the src directory.
+    Run:
+    Code
+
+dotnet build
+
+This will produce an executable in the bin/Debug/net6.0/ directory.
+To protect a file or folder, run:
+Code
+
+dotnet run --project UserPrivacyEnforcer.csproj "C:\path\to\your\data"
+
+Or run the .exe directly:
+Code
+
+    bin\Debug\net6.0\UserPrivacyEnforcer.exe "C:\path\to\your\data"
+
+Let me know if you need any additional customization or want to integrate this step into your main workflow!
