@@ -1,0 +1,9 @@
+[package]
+name = "ruforus-datrain"
+version = "0.1.0"
+edition = "2021"
+authors = ["MistyPigeon"]
+description = "Cache files to USB (with Rufus), OneDrive Personal, and File Explorer."
+
+[dependencies]
+which = "4.4.0"    # For checking if Rufus is installed
